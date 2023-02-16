@@ -164,5 +164,5 @@ document.querySelector('#book-list').addEventListener('click',(e) =>
  Store.removebook(e.target.parentElement.previousElementSibling.textContent);
 
  //show success message
-   UI.showAlert('BookAdded','success');
+   UI.showAlert('Book Removed','success');
 });
